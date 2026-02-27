@@ -13,6 +13,7 @@ permissions:
   attestations: write
   actions: read
   security-events: write
+  dependency-graph: write
 on:
   push:
     branches: [ "main" ]
